@@ -1,0 +1,4 @@
+textarea[name=input] {
+    resize: vertical;
+    min-height: 4em;
+}
