@@ -20,7 +20,7 @@ var bubblizator = null;
 
 function initBubblizator() {
     bubblizator = new Bubblizator({
-        charset: charsets.music
+        charset: charsets.bubble
     });
 }
 
