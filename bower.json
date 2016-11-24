@@ -1,0 +1,21 @@
+{
+  "name": "bubblizator",
+  "main": "bubblizator.js",
+  "homepage": "https://github.com/alcalyn/bubblizator",
+  "authors": [
+    "Alcalyn <doubjulien@hotmail.fr>"
+  ],
+  "description": "Bubblizator is a symmetric-key algorithm which creates a bubble ciphertext.",
+  "keywords": [
+    "encryption",
+    "bubble"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
