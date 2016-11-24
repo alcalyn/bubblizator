@@ -31,6 +31,13 @@ Using Bower:
 bower install bubblizator
 ```
 
+Then add in your template:
+
+``` html
+<script type="text/javascript" src="bower_components/bubblizator/hash/sha512.min.js"></script>
+<script type="text/javascript" src="bower_components/bubblizator/bubblizator.js"></script>
+```
+
 
 ## Usage
 
