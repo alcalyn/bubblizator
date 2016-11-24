@@ -41,7 +41,7 @@
                 }
             }
         } else {
-            options = defaultOptions;
+            this.options = defaultOptions;
         }
 
         /*

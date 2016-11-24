@@ -121,6 +121,12 @@ assertFalse(bubblizator.checkCharset('abcdefgg'));
 assertTrue(bubblizator.checkCharset('¥bcdefg₡'));
 assertEquals(bubblizator.decode(bubblizator.encode(string, key), key), string);
 
+try {
+    var bubblizatorDefaults = new Bubblizator();
+    console.log('ok');
+} catch (e) {
+    console.warn('Failed to instanciate a bubblizator with no options');
+}
 
 
 
