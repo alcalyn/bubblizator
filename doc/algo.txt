@@ -1,0 +1,27 @@
+
+ - String encode/decode algorithm
+
+State               type        example
+
+DECODED             char[]      '∑e'
+    unserialize/serialize
+bytes               int8[]      226, 136, 145, 101, ...
+    shift(key)/unshift(key)
+shiftedBytes        int8[]      45, 148, 14, 232, ...
+    joinOctets/splitOctets
+binarized           char[]      0100001001011010...
+    splitTriplets/joinTriplets
+triplets            char[3][]   010, 001, ... + fill rest with '0' to be a multiple of 3 or 8 (encoding or decoding)
+    encodeCharset(charset)/decodeCharset(charset)
+ENCODED             char[]      "afhehhgd"
+
+
+ - Key hash algorithm
+
+Key                 type        example
+
+KEY                 string      'My key'
+    hash
+hash                string      '0512ffd9...'
+    unserialize
+UNSERIALIZEDKEY     int8[]      5, 18, 255, ...
